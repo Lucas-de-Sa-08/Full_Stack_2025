@@ -11,7 +11,7 @@ p{
     font-size: 50pt;
 }
 
-.tag_h{
+.h{
     font-size: 40pt;
 }
 
@@ -20,6 +20,7 @@ li{
 }
 
 table{
+    display: inline;
     font-size: 20pt;
     border-collapse:collapse;
 }
@@ -28,10 +29,10 @@ table{
     color: rgb(255, 0, 0);
 }
 #thead2{
-    color: rgb(0, 132, 255);
+    color: rgb(0, 102, 255);
 }
 #thead3{
-    color: rgb(68, 0, 255);
+    color: rgb(140, 0, 255);
 }
 
 .tag_tfoot{
@@ -90,4 +91,8 @@ iframe{
     width: 750px;
     height: 450px;
     border: solid black 5px;
+}
+
+.display_inline{
+    display: inline;
 }
