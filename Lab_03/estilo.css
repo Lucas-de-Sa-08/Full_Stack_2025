@@ -88,3 +88,27 @@ body{
     color: indigo;
 
 }
+
+#img3{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+
+#img4{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+
+#img5{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+}
