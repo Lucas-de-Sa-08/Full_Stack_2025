@@ -3,40 +3,69 @@ body{
     background-color: rgb(140, 156, 141);
 }
 
-p{
+#link1{
+    position: relative;
+    top: 10px;
     font-size: 25pt;
+    color: black;
+    background-color: rgb(48, 80, 48);
+    margin: 5px;
+    padding: 5px;
+    border: solid black;
+    box-shadow: 5px 5px rgb(44, 44, 44);
 }
 
-#h1{
-    font-size: 50pt;
+a:hover{
+    color: white;
 }
 
-.h{
-    font-size: 40pt;
-}
-
-li{
+a{
+    color: rgb(24, 59, 24);
     font-size: 20pt;
 }
 
-table{
+.table_1-2{
     display: inline;
     font-size: 20pt;
-    border-collapse:collapse;
+    margin: 30px;
 }
 
-#thead1{
-    color: rgb(255, 0, 0);
+caption{
+    color: white;
+    padding: 10px;
+    font-size: 35pt;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border: 4px solid black;
+    background-color: rgb(48, 80, 48);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
-#thead2{
-    color: rgb(0, 102, 255);
+
+.thead{
+    font-size: 25pt;
+    font-family: sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
-#thead3{
-    color: rgb(140, 0, 255);
+
+#td1{
+    color: red;
+}
+#td2{
+    color: blue;
+}
+#td3{
+    color: darkorchid;
+}
+#td4{
+    color: gold;
 }
 
 .tag_tfoot{
-    color: rgb(255, 0, 0);
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 thead,tfoot{
@@ -44,16 +73,16 @@ thead,tfoot{
     font-weight: bolder;
     background-color: rgb(102, 151, 102);
 }
-thead > tr>td{
+thead>tr>td{
     position: sticky;
     top: -2px;
     background-color: rgb(102, 151, 102);
 }
 
-tbody > tr:nth-child(2n){
+tbody>tr:nth-child(2n){
     background-color: rgb(150, 150, 150);
 }
-tbody > tr:nth-child(odd){
+tbody>tr:nth-child(odd){
     background-color: rgb(190, 190, 190);
 }
 
@@ -62,37 +91,4 @@ td{
     width: 200px;
     height: 50px;
     text-align: center;
-}
-
-caption{
-    padding: 8px;
-    font-size: 30pt;
-    font-weight: bolder;
-    border: 4px solid black;
-    background-color: rgb(48, 80, 48);
-}
-
-a:hover{
-    background-color: black;
-}
-
-a{
-    color: rgb(24, 59, 24);
-    font-size: 20pt;
-}
-
-img{
-    width: 300px;
-    border: solid black 4px;
-    background-color: white;
-}
-
-iframe{
-    width: 750px;
-    height: 450px;
-    border: solid black 5px;
-}
-
-.display_inline{
-    display: inline;
 }

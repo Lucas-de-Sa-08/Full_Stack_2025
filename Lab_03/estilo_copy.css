@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: lightgrey;
 }
 
 #div_1{
@@ -11,35 +12,32 @@ body{
 #img1{
     width: 200px;
     height: 200px;
-    position: absolute;
-    left: 0px;
-    top: 20px;
+    position: relative;
+    top: 10px;
+    left: -840px;
 }
 
 #h1{
     font-size: 35pt;
-    text-align: center;
     color: darkgreen;
     position: relative;
-    display: inline;
-    top: 80px;
+    top: -150px;
+
 }
 
 #img2{
     width: 200px;
     height: 200px;
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 20px;
 }
 
 #div_2-5{
     background-color: lightskyblue;
     height: 40px;
-    position: absolute;
-    top: 236px;
-    width: 1904px;
-    left: 8px;
+    position: relative;
+    width: 1887px;
 }
 
 #p1{
@@ -80,6 +78,7 @@ body{
 
 .h2-5{
     font-size: 30pt;
+    margin: 50px;
 }
 
 .p5-7{
@@ -92,23 +91,34 @@ body{
 #img3{
     width: 200px;
     height: 300px;
-    position: absolute;
-    left: 500px;
-    top: 20px;
+    position: relative;
+    left: -250px;
 }
 
 #img4{
     width: 250px;
     height: 300px;
-    position: absolute;
-    left: 1000px;
-    top: 20px;
+    position: relative;
+    left: 0px;
 }
 
 #img5{
     width: 200px;
     height: 300px;
-    position: absolute;
-    left: 1500px;
-    top: 20px;
+    position: relative;
+    left: 250px;
+}
+
+#iframe1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: -100px;
+}
+
+#iframe2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: -100px;
 }
