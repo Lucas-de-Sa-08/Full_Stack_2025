@@ -6,13 +6,16 @@ body{
 #link1{
     position: relative;
     top: 10px;
-    font-size: 25pt;
-    color: black;
+    font-size: 30pt;
+    font-family: sans-serif;
+    color: white;
     background-color: rgb(48, 80, 48);
     margin: 5px;
     padding: 5px;
     border: solid black;
     box-shadow: 5px 5px rgb(44, 44, 44);
+    -webkit-text-stroke-width: 2.1px;
+    -webkit-text-stroke-color: black;
 }
 
 a:hover{
