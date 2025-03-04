@@ -6,15 +6,16 @@ body{
 #link1{
     position: relative;
     top: 10px;
-    font-size: 30pt;
+    font-size: 25pt;
     font-family: sans-serif;
+    font-weight: bolder;
     color: white;
     background-color: rgb(48, 80, 48);
     margin: 5px;
     padding: 5px;
     border: solid black;
     box-shadow: 5px 5px rgb(44, 44, 44);
-    -webkit-text-stroke-width: 2.1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
@@ -65,7 +66,7 @@ caption{
     color: gold;
 }
 
-.tag_tfoot{
+.tfoot{
     color: red;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
