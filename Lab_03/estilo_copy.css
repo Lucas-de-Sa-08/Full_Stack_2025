@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+    
     background-color: lightgrey;
 }
 
@@ -21,6 +21,7 @@ body{
     color: darkgreen;
     position: relative;
     top: 50px;
+    text-align: center;
 
 }
 
@@ -31,56 +32,58 @@ body{
     top: 20px;
 }
 
-#div_2-5{
+#div_2{
     background-color: lightskyblue;
-    height: 40px;
+    height: 50px;
 }
 
 #p1{
-    font-size: 15pt;
+    font-weight: bolder;
     color: darkred;
     position: relative;
     display: inline;
-    top: 5px;
-    left: -400px;
+    top: 15px;
+    left: 500px;
 }
 
 #p2{
-    font-size: 15pt;
+    font-weight: bolder;
     color: darkred;
     position: relative;
     display: inline;
-    top: 5px;
-    left: -100px;
+    top: 15px;
+    left: 700px;
 }
 
 #p3{
-    font-size: 15pt;
+    font-weight: bolder;
     color: darkred;
     position: relative;
     display: inline;
-    top: 5px;
-    left: 100px;
+    top: 15px;
+    left: 950px;
 }
 
 #p4{
-    font-size: 15pt;
+    font-weight: bolder;
     color: darkred;
     position: relative;
     display: inline;
-    top: 5px;
-    left: 400px;
+    top: 15px;
+    left: 1150px;
 }
 
 .h2-5{
-    font-size: 30pt;
+    font-size: 25pt;
     margin: 50px;
+    text-align: center;
 }
 
 .p5-7{
     font-family: sans-serif;
     font-size: 20pt;
     color: indigo;
+    text-align: center;
 
 }
 
@@ -88,39 +91,35 @@ body{
     width: 200px;
     height: 300px;
     position: relative;
-    left: -250px;
+    left: 400px;
 }
 
 #img4{
     width: 250px;
     height: 300px;
     position: relative;
-    left: 0px;
+    left: 600px;
 }
 
 #img5{
     width: 200px;
     height: 300px;
     position: relative;
-    left: 250px;
+    left: 800px;
 }
 
 #iframe1{
     width: 350px;
     height: 350px;
     position: relative;
-    left: -100px;
+    left: 500px;
 }
 
 #iframe2{
     width: 350px;
     height: 350px;
     position: relative;
-    right: -100px;
-}
-
-.table{
-    display: inline;
+    left: 700px;
 }
 
 .thead{
@@ -137,10 +136,12 @@ td{
 }
 
 #div_6{
+    text-align: center;
     border: dashed red 5px;
     position: absolute;
-    width: 520px;
     left: 700px;
+    width: 520px;
+    display: inline;
 }
 
 #div_7{
@@ -159,29 +160,36 @@ td{
     color: darkred;
 }
 
+a:hover{
+    color: white;
+    background-color: blue;
+}
+
 #div_8{
     background-color: bisque;
     height: 175px;
+    position: relative;
+    bottom: 0px;
 }
 
 #img_6{
     width: 150px;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
     left: 0px;
-    top: 2400px;
+    top: 15px;
 }
 
 #h6{
-    font-family: sans-serif;
-    font-size: 20pt;
+    font-family: comic sans ms;
+    font-size: 15pt;
     position: relative;
-    top: 75px;
+    top: -100px;
+    left: 750px;
 }
 
 #img_7{
-    width: 100px;
+    width: 105px;
     position: absolute;
     right: 20px;
-    top: 2400px;
+    top: 15px;
 }
