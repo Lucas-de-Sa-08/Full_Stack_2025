@@ -61,7 +61,8 @@ p{
 }
 
 .listas{
-    text-align: left;
+    position: absolute;
+    left: 750px;
 }
 
 a:hover{
