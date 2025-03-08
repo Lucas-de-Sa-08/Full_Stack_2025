@@ -3,6 +3,10 @@ body{
     background-color: rgb(140, 156, 141);
 }
 
+.inline{
+    display: inline;
+}
+
 .margin{
     margin: 30px;
 }
@@ -28,7 +32,7 @@ p{
 #h1{
     color: rgb(24, 59, 24);
     font-size: 50pt;
-    font-family: sans-serif;
+    font-family: comic sans ms;
     text-shadow: 10px 10px rgb(44, 44, 44);
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
@@ -37,8 +41,9 @@ p{
 #link1{
     position: relative;
     top: 10px;
-    font-size: 30pt;
-    font-family: sans-serif;
+    font-size: 25pt;
+    font-family: comic sans ms;
+    font-weight: bolder;
     color: white;
     background-color: rgb(48, 80, 48);
     margin: 5px;
@@ -49,9 +54,17 @@ p{
     -webkit-text-stroke-color: black;
 }
 
+.lucas{
+    width: 275px;
+    margin: 10px;
+    border: solid black 5px;
+    background-color: white;
+    box-shadow: 8px 8px rgb(36, 36, 36);
+}
+
 .h{
     font-size: 40pt;
-    font-family: sans-serif;
+    font-family: comic sans ms;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(223, 223, 223);
 }
@@ -62,7 +75,7 @@ p{
 
 .listas{
     position: absolute;
-    left: 750px;
+    left: 0px;
 }
 
 a:hover{
@@ -76,15 +89,12 @@ a:hover{
 }
 
 .img{
-    width: 300px;
+    display: inline;
+    width: 250px;
     margin: 10px;
     border: solid black 5px;
     background-color: white;
     box-shadow: 8px 8px rgb(36, 36, 36);
-}
-
-.inline{
-    display: inline;
 }
 
 .iframe{
