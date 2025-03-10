@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    background-color: rgb(140, 156, 141);
+}
+
+p{
+    font-size: 25pt;
+}
+
+#h1{
+    font-size: 50pt;
+}
+
+.h{
+    font-size: 40pt;
+}
+
+li{
+    font-size: 20pt;
+}
+
+table{
+    display: inline;
+    font-size: 20pt;
+    border-collapse:collapse;
+}
+
+#thead1{
+    color: rgb(255, 0, 0);
+}
+#thead2{
+    color: rgb(0, 102, 255);
+}
+#thead3{
+    color: rgb(140, 0, 255);
+}
+
+.tag_tfoot{
+    color: rgb(255, 0, 0);
+}
+
+thead,tfoot{
+    font-size: 25pt;
+    font-weight: bolder;
+    background-color: rgb(102, 151, 102);
+}
+thead > tr>td{
+    position: sticky;
+    top: -2px;
+    background-color: rgb(102, 151, 102);
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgb(150, 150, 150);
+}
+tbody > tr:nth-child(odd){
+    background-color: rgb(190, 190, 190);
+}
+
+td{
+    border: 4px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+caption{
+    padding: 8px;
+    font-size: 30pt;
+    font-weight: bolder;
+    border: 4px solid black;
+    background-color: rgb(48, 80, 48);
+}
+
+a:hover{
+    background-color: black;
+}
+
+a{
+    color: rgb(24, 59, 24);
+    font-size: 20pt;
+}
+
+img{
+    width: 300px;
+    border: solid black 4px;
+    background-color: white;
+}
+
+iframe{
+    width: 750px;
+    height: 450px;
+    border: solid black 5px;
+}
+
+.display_inline{
+    display: inline;
+}
