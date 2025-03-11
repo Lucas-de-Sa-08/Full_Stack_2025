@@ -1,0 +1,9 @@
+.flex-countainer{
+    background-color: blue;
+}
+
+.flex-countainer div{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
