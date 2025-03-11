@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container div{
+    background-color: rgb(103, 1, 143);
+    color: white;
+    width: 125px;
+    height: 125px;
+}
+
+#p1{
+    align-self: center;
+    font-size: 15pt;
+}
+
+#p2{
+    font-size: 20pt;
+}
