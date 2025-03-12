@@ -1,0 +1,194 @@
+body{
+    
+    background-color: lightgrey;
+}
+
+#div_1{
+    background-color: bisque;
+    border:4px solid darkblue;
+    height: 220px;
+}
+
+#img1{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#h1{
+    font-size: 35pt;
+    color: darkgreen;
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+}
+
+#img2{
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+#div_2{
+    background-color: lightskyblue;
+    height: 50px;
+}
+
+#p1{
+    font-weight: bolder;
+    color: darkred;
+    position: relative;
+    display: inline;
+    top: 15px;
+    left: 500px;
+}
+
+#p2{
+    font-weight: bolder;
+    color: darkred;
+    position: relative;
+    display: inline;
+    top: 15px;
+    left: 700px;
+}
+
+#p3{
+    font-weight: bolder;
+    color: darkred;
+    position: relative;
+    display: inline;
+    top: 15px;
+    left: 950px;
+}
+
+#p4{
+    font-weight: bolder;
+    color: darkred;
+    position: relative;
+    display: inline;
+    top: 15px;
+    left: 1150px;
+}
+
+.h2-5{
+    font-size: 25pt;
+    text-align: center;
+}
+
+.p5-7{
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: indigo;
+    text-align: center;
+
+}
+
+#img3{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 400px;
+}
+
+#img4{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    left: 600px;
+}
+
+#img5{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 800px;
+}
+
+#iframe1{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 500px;
+}
+
+#iframe2{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 700px;
+}
+
+.thead{
+    color: red;
+    font-weight: bolder;
+}
+
+td{
+    font-size: 15pt;
+    padding: 10px;
+    border: 1px solid red;
+    width: 240px;
+    height: 20px;
+}
+
+#div_6{
+    text-align: center;
+    border: dashed red 5px;
+    position: absolute;
+    left: 700px;
+    width: 520px;
+    display: inline;
+}
+
+#div_7{
+    font-size: 15pt;
+    text-align: left;
+    background-color: yellow;
+    position: relative;
+    width: 700px;
+    height: 125px;
+    left: 600px;
+}
+
+.a{
+    position: relative;
+    left: 150px;
+    color: darkred;
+}
+
+a:hover{
+    color: white;
+    background-color: blue;
+}
+
+#div_8{
+    background-color: bisque;
+    height: 175px;
+    position: relative;
+    bottom: 0px;
+}
+
+#img_6{
+    width: 150px;
+    position: relative;
+    left: 0px;
+    top: 15px;
+}
+
+#h6{
+    font-family: comic sans ms;
+    font-size: 15pt;
+    position: relative;
+    top: -100px;
+    left: 750px;
+}
+
+#img_7{
+    width: 105px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
