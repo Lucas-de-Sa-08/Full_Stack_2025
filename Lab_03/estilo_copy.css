@@ -137,10 +137,9 @@ td{
 #div_6{
     text-align: center;
     border: dashed red 5px;
-    position: absolute;
+    position: relative;
     left: 700px;
     width: 520px;
-    display: inline;
 }
 
 #div_7{
@@ -183,7 +182,7 @@ a:hover{
     font-size: 15pt;
     position: relative;
     top: -100px;
-    left: 750px;
+    text-align: center;
 }
 
 #img_7{

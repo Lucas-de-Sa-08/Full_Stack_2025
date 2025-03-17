@@ -38,8 +38,9 @@
     margin: 2px;
 }
 
-.flex-container div{
-    display: inline;
+#div2{
+    display: flex;
+    justify-content: center;
 }
 
 .p4-5{
