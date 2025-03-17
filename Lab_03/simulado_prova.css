@@ -1,20 +1,47 @@
+
 .flex-container{
     display: flex;
     justify-content: center;
 }
 
 .flex-container div{
-    background-color: rgb(103, 1, 143);
+    background-color: white;
+}
+
+#div1{
+    background-color: rgb(75, 6, 167);
     color: white;
     width: 125px;
-    height: 125px;
+    height: 130px;
+    margin: 2px;
 }
 
 #p1{
-    align-self: center;
+    position: relative;
     font-size: 15pt;
+    left: 15px;
 }
 
 #p2{
+    position: relative;
     font-size: 20pt;
+    left: 15px;
+    top: -15px;
+}
+
+.img1{
+    width: 160px;
+    margin: 2px;
+}
+.img2{
+    width: 130px;
+    margin: 2px;
+}
+
+.flex-container div{
+    display: inline;
+}
+
+.p4-5{
+    text-align: center;
 }
