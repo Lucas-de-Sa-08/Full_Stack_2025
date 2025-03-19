@@ -34,44 +34,44 @@ body{
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bolder;
-    position: relative;
-    left: 200px;
-    top: -100px;
+    position: absolute;
+    left: 210px;
+    top: 100px;
 }
 #bernardo{
     color: rgb(90, 90, 90);
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bolder;
-    position: relative;
-    left: 290px;
-    top: -145px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
 }
 #do{
     color: orange;
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bolder;
-    position: relative;
-    left: 200px;
-    top: -155px;
+    position: absolute;
+    left: 210px;
+    top: 140px;
 }
 #campo{
     color: rgb(0, 184, 0);
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bolder;
-    position: relative;
-    left: 265px;
-    top: -200px;
+    position: absolute;
+    left: 275px;
+    top: 140px;
 }
 #pref{
     font-size: 10px;
     font-family: sans-serif;
     font-weight: bolder;
-    position: relative;
-    left: 202px;
-    top: -200px;
+    position: absolute;
+    left: 210px;
+    top: 190px;
 }
 
 #div3{
@@ -96,7 +96,7 @@ body{
     padding: 8px;
 }
 #predio{
-    width: 270px;
+    width: 275px;
 }
 #paço{
     position: relative;
@@ -109,7 +109,7 @@ body{
     width: 575px;
     height: 400px;
     position: relative;
-
+    background-color: white;
     font-family: sans-serif;
     font-size: 15px;
 }
