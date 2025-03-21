@@ -2,9 +2,7 @@ body{
     background-color: rgb(211, 211, 211);
 }
 
-.flex-container{
-    
-}
+.flex-container{}
 
 .flex-container div{
     background-color: rgb(16, 105, 240);
