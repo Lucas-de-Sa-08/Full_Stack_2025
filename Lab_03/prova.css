@@ -69,7 +69,7 @@ body{
     font-weight: bolder;
     position: absolute;
     left: 210px;
-    top: 190px;
+    top: 185px;
 }
 
 #div3{
@@ -80,6 +80,7 @@ body{
     background-color: white;
     font-family: sans-serif;
     font-size: 15px;
+    border: solid gray 1px;
 }
 #locais{
     height: 30px;
@@ -87,6 +88,7 @@ body{
     background-color: rgb(255, 136, 0);
     font-family: sans-serif;
     position: relative;
+    top: -15px;
 }
 .titulos{
     position: relative;
@@ -95,6 +97,7 @@ body{
 }
 #predio{
     width: 275px;
+    position: relative;
 }
 #paço{
     position: relative;
@@ -102,7 +105,7 @@ body{
 }
 
 #div4{
-    top: -415px;
+    top: -400px;
     left: 385px;
     width: 575px;
     height: 400px;
@@ -110,6 +113,7 @@ body{
     background-color: white;
     font-family: sans-serif;
     font-size: 15px;
+    border: solid gray 1px;
 }
 #secretaria{
     height: 30px;
@@ -117,6 +121,7 @@ body{
     background-color: rgb(0, 184, 0);
     font-family: sans-serif;
     position: relative;
+    top: -15px;
 }
 
 #negrito{
