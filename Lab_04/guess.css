@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+
+.flex_container{}
+
+.flex_container div{
+    display: flex;
+    justify-content: center;
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 200px;
+    background-color: white;
+    border: solid black;
+    margin: 1px;
+    padding: 5px;
+}
+#div2{
+    display: flex;
+    justify-content: center;
+}
