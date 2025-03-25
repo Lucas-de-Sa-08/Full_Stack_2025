@@ -16,6 +16,21 @@ body{
     display: inline;
 }
 
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    right: 75px;
+}
+
 #div2{
     background-color: white;
     height: 180px;
@@ -123,6 +138,11 @@ body{
     position: relative;
     top: -15px;
 }
+#secre_pt2{
+    position: relative;
+    left: 300px;
+    top: -200px;
+}
 
 #negrito{
     font-weight: bolder;
@@ -131,12 +151,10 @@ body{
 #final{
     background-color: rgb(16, 105, 240);
     color: white;
-    display: flex;
-    justify-content: center;
     height: 75px;
     font-family: sans-serif;
 }
-#pfin{
+.pfinal{
     display: flex;
     justify-content: center;
 }
