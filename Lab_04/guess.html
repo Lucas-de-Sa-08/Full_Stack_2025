@@ -6,15 +6,29 @@
         <link href="guess.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Lab 04</h1>
+        <h1 id="h1">Jogo da Adivinhação!</h1>
+        <p id="p1">Tente achar o número secreto entre 1 e 100!</p>
 
         <div class="flex_container">
             <div id="div1">
-                <input class="input" type="number" id="caixa_1"></p>
+                <input class="input" type="number"
+                    id="numero" placeholder="Digite um número"></p>
             </div>
             <div>
-                <input class="input" type="button" value="Clique aqui! " onclick="caixa1()">
+                <input class="input" type="button" 
+                    value="Confirmar! " onclick="verificarNum()">
             </div>
+            <div>
+                <p class="mensagem" id="mensagem"></p>
+            </div>
+            <div class="tentativas">
+                <p class="p_tent">Tentativas Grandes > : </p>
+                <p class="p_numG" id="tentativasGrandes"></p>
+            </div>
+            <div class="tentativas">
+                <p class="p_tent">Tentativas Pequenas < : </p>
+                <p class="p_numP" id="tentativasPequenas"></p>
+            </div>  
         </div>
 
         <script src="guess.js" type="text/javascript"></script>
