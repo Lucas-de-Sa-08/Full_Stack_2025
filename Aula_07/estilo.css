@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(71, 129, 71);
+}
+#canvas1{
+    background-color: white;
+    border: solid 5px black;
+    margin: 11px;
+}
+#canvas2{
+    background-color: white;
+    border: solid 5px black;
+    margin: 11px;
+}
+#canvas3{
+    background-color: white;
+    border: solid 5px black;
+    margin: 11px;
+}
+
+#h1{
+    color: white;
+    font-size: 50pt;
+    font-family: comic sans ms;
+    text-shadow: 10px 10px rgb(72, 72, 72);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: center;
+}

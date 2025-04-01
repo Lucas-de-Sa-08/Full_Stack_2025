@@ -5,6 +5,7 @@
 let numSecreto = Math.floor(Math.random() * 100) + 1;
 let tentativasGrandes = [];
 let tentativasPequenas = [];
+console.log(numSecreto);
 
 function verificarNum(){
     let numDig = parseInt(document.getElementById('numero').value);
