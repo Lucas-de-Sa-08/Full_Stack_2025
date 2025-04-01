@@ -20,17 +20,20 @@ function verificarNum(){
 
     if (numDig < numSecreto){
         mensagem.textContent = "Número muito pequeno!";
-        mensagem.style.color = "red"
+        mensagem.style.color = "white"
+        mensagem.style.backgroundColor = "red"
         tentativasPequenas.push(numDig);
     }
     else if (numDig > numSecreto){
         mensagem.textContent = "Número muito grande!";
-        mensagem.style.color - "red"
+        mensagem.style.color - "white"
+        mensagem.style.backgroundColor = "red"
         tentativasGrandes.push(numDig);
     }
     else {
         mensagem.textContent = "Parabéns, você encontrou o número secreto!";
-        mensagem.style.color = "green"
+        mensagem.style.color = "white"
+        mensagem.style.backgroundColor = "green"
     }
     tentativasP.textContent = tentativasPequenas.join(', ');
     tentativasG.textContent = tentativasGrandes.join(', ');
