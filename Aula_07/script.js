@@ -51,25 +51,25 @@ let ct2 = canvas2.getContext('2d');
 // quadrado 1
 ct2.beginPath();
 ct2.fillStyle = 'red';
-ct2.fillRect(1,1,40,40);
+ct2.fillRect(0,0,40,40);
 ct2.closePath();
 
 // quadrado 2
 ct2.beginPath();
 ct2.fillStyle = 'blue';
-ct2.fillRect(309,1,40,40);
+ct2.fillRect(310,0,40,40);
 ct2.closePath();
 
 // quadrado 3
 ct2.beginPath();
 ct2.fillStyle = 'yellow';
-ct2.fillRect(1,309,40,40);
+ct2.fillRect(0,310,40,40);
 ct2.closePath();
 
 // quadrado 4
 ct2.beginPath();
 ct2.fillStyle = 'green';
-ct2.fillRect(309,309,40,40);
+ct2.fillRect(310,310,40,40);
 ct2.closePath();
 
 // Circulo 1
@@ -112,7 +112,7 @@ ct2.fill();
 ct2.stroke();
 ct2.closePath();
 
-// linha 2
+// linha 3
 ct2.beginPath();
 ct2.lineWidth = 2;
 ct2.strokeStyle = 'green';
@@ -125,9 +125,9 @@ ct2.closePath();
 // texto
 ct2.beginPath();
 ct2.fillStyle = 'black';
-ct2.font = "20px arial"
+ct2.font = "22px arial"
 ct2.textAlign = "center";
-ct2.fillText("Desenvolvimento web",175,75);
+ct2.fillText("Desenvolvimento web",175,65);
 ct2.closePath();
 
 // arcos
