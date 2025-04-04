@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(71, 129, 71);
+}
+#h1{
+    color: white;
+    font-size: 75pt;
+    font-family: comic sans ms;
+    text-shadow: 10px 10px rgb(72, 72, 72);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: center;
+}
+#div{
+    display: flex;
+    justify-content: center;
+}
+#canvas_1{
+    background-color: white;
+    border: solid 5px black;
+    margin: 50px;
+}
+#canvas_2{
+    background-color: white;
+    border: solid 5px black;
+    margin: 50px;
+}
