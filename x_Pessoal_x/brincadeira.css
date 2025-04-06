@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background-color: red;
+}
+#mc{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border: solid 5px yellow;
+    margin: 25px;
+}
+a{
+    text-decoration: none;
+}
+.position{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    font-size: 20px;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background: yellow;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px black;
+}
+•buttons-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    color: red;
+    font-weight: 600;
+}
