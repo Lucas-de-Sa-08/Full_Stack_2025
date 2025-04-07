@@ -123,12 +123,75 @@ function desenharCirculoPorFração(x, y, raio, fracao, corPreenchimento, corBor
     ctx1.stroke();
 }
 desenharCirculoPorFração(250, 500, 70, 1 / 2, "aqua", "green", 3, true)
+///////////////////////////////////////////////////////////////////////
 
-// 3/4 de círculo (270°)
-//desenharSetorCircularPorFração(130, 150, 80, 3 / 4, "skyblue", "black", 3);
+let  canvas2 = document.getElementById('canvas_2');
+let ctx2 = canvas2.getContext('2d');
 
-// 5/8 de círculo (~225°)
-//desenharSetorCircularPorFração(300, 150, 80, 5 / 8, "orange", "black", 3);
+function desenharTriangulo2(x1, y1, x2, y2, x3, y3, cor, larguraBorda, corBorda){
+    ctx2.beginPath(); // Inicia o caminho do desenho
+    ctx2.moveTo(x1, y1); // Move para o primeiro ponto
+    ctx2.lineTo(x2, y2); // Linha até o segundo ponto
+    ctx2.lineTo(x3, y3); // Linha até o terceiro ponto
+    ctx2.closePath(); // Fecha o triângulo ligando ao ponto inicial
+    ctx2.fillStyle = cor; // Define a cor de preenchimento
+    ctx2.fill(); // Preenche o triângulo
+    // Borda
+    //ctx2.lineWidth = larguraBorda;
+    //ctx2.strokeStyle = corBorda;
+    //ctx2.stroke();
+}
 
-// 1/6 de círculo (60°)
-//desenharSetorCircularPorFração(400, 150, 80, 1 / 6, "lime", "black", 3);
+desenharTriangulo2(250, 185, 185, 250, 315, 250, "coral")
+///////////////////////////////////////////////////////////////////////
+
+function desenharRetangulo2(x, y, largura, altura, corPreenchimento, corBorda, larguraBorda){
+    // Preenchimento do retângulo
+    ctx2.fillStyle = corPreenchimento;
+    ctx2.fillRect(x, y, largura, altura);
+
+    // Configuração da borda
+    //ctx1.lineWidth = larguraBorda;
+    //ctx1.strokeStyle = corBorda;
+    //ctx1.strokeRect(x, y, largura, altura);
+}
+// Casa
+desenharRetangulo2(185, 250, 130, 130, "rgb(135, 65, 65)")
+desenharRetangulo2(235, 315, 30, 65, "rgb(70, 32, 32)")
+desenharRetangulo2(195, 280, 40, 35, "rgb(93, 172, 245)")
+desenharRetangulo2(265, 280, 40, 35, "rgb(93, 172, 245)")
+// Chão e água
+desenharRetangulo2(0, 380, 500, 120, "rgb(103, 103, 103)")
+desenharRetangulo2(0, 380, 60, 120, "rgb(0, 132, 255)")
+desenharRetangulo2(60, 440, 120, 60, "rgb(0, 132, 255)")
+// Árvores
+desenharRetangulo2(60, 315, 30, 65, "saddlebrown")
+desenharRetangulo2(430, 400, 30, 65, "saddlebrown")
+///////////////////////////////////////////////////////////////////////
+
+function desenharCirculoPorFração2(x, y, raio, fracao, corPreenchimento, sentidoAntiHorario = false) {
+    const anguloTotal = 2 * Math.PI; // 360 graus em radianos
+    const anguloFinal = fracao * anguloTotal;
+
+    ctx2.beginPath();
+    ctx2.moveTo(x, y); // vai para o centro
+    ctx2.arc(x, y, raio, 0, anguloFinal, sentidoAntiHorario);
+    ctx2.closePath();
+
+    // Preenchimento
+    ctx2.fillStyle = corPreenchimento;
+    ctx2.fill();
+
+    // Borda
+    //ctx2.lineWidth = larguraBorda;
+    //ctx2.strokeStyle = corBorda;
+    //ctx2.stroke();
+}
+// Água
+desenharCirculoPorFração2(180, 500, 60, 3 / 4, "rgb(0, 132, 255)", true)
+desenharCirculoPorFração2(0, 380, 60, 3 / 4, "rgb(0, 132, 255)", true)
+// Sol
+desenharCirculoPorFração2(380, 125, 65, 1/1, "yellow")
+// Arvore
+desenharCirculoPorFração2(445, 370, 40, 1/1, "darkgreen")
+desenharCirculoPorFração2(75, 290, 40, 1/1, "darkgreen")
