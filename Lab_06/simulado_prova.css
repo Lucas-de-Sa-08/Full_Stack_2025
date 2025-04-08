@@ -1,0 +1,74 @@
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container div{
+    background-color: white;
+}
+
+a{
+    color: black;
+}
+
+#div1{
+    background-color: rgb(99, 68, 141);
+    color: white;
+    width: 125px;
+    height: 130px;
+    margin: 2px;
+}
+
+#p1{
+    position: relative;
+    font-size: 15pt;
+    left: 15px;
+}
+
+#p2{
+    position: relative;
+    font-size: 20pt;
+    left: 15px;
+    top: -15px;
+}
+
+.img1{
+    width: 160px;
+    margin: 2px;
+}
+.img2{
+    width: 130px;
+    margin: 2px;
+}
+
+.div_center{
+    display: flex;
+    justify-content: center;
+}
+
+#update{
+    position: relative;
+    top: -15px;
+    left: -75px;
+}
+
+#img3{
+    width: 450px;
+}
+
+#img5{
+    width: 203px;
+    height: 181px;
+}
+
+#img6{
+    position: relative;
+    left: 110px;
+    top: -40px;
+}
+
+#a{
+    display: flex;
+    justify-content: center;
+}
