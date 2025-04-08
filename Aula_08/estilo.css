@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container div{
+    background-color: white;
+    border: solid black 5px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+}
+#canvas_1{
+    background-color: white;
+    border: solid black 1px;
+}
