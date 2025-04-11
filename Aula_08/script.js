@@ -45,6 +45,7 @@ carros.push(carro2)
 for(let i = 0; i < carros.length; i++){
     console.log(carros[i].buzina())
 }
+////////////////////////////////////////////////////////////////////////////////////
 
 class Retangulo{
     constructor(cor_linha, cor_preenchimento, grossura_linha, x, y, largura, altura){
@@ -70,9 +71,9 @@ class Retangulo{
 let canvas1 = document.getElementById('canvas_1');
 let ctx1 = canvas1.getContext('2d');
 
-let retangulo_1 = new Retangulo('red', 'green', 3, 0, 5, 50, 50);
-let retangulo_2 = new Retangulo('red', 'blue', 3, 225, 225, 50, 50);
-let retangulo_3 = new Retangulo('red', 'yellow', 3, 100, 100, 50, 50);
+let retangulo_1 = new Retangulo('red', 'green', 5, 0, 10, 75, 75);
+let retangulo_2 = new Retangulo('red', 'blue', 5, 215, 215, 75, 75);
+let retangulo_3 = new Retangulo('red', 'yellow', 5, 125, 125, 75, 75);
 
 function animacao(){
     if(retangulo_1.x == 500){
@@ -88,7 +89,6 @@ function animacao(){
     requestAnimationFrame(animacao);
 }
 animacao()
-
 document.addEventListener('keydown', function(evento){
     let tecla = evento.key;
     console.log(tecla);

@@ -1,4 +1,4 @@
-let  canvas1 = document.getElementById('canvas_1');
+let canvas1 = document.getElementById('canvas_1');
 let ctx1 = canvas1.getContext('2d');
 ///////////////////////////////////////////////////////////////////////
 
